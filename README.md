@@ -44,8 +44,17 @@ Balancing the number of parameters is crucial for achieving high performance whi
 
 https://x.com/CTOAdvisor/status/1803177295693357455
 
-## Day 03
+## Day 03 of #100DaysOfAI: Tokens
 
+https://x.com/CTOAdvisor/status/1803471105975280019
+
+A token is a piece of data that AI models use to do their thing. The most common example is text. When we talk about text, a token is like a chunk of a word or even a whole word, depending on how it's broken down. Usually, people say a token is about 3/4 of a word. So, for example, the sentence "OpenAI develops advanced AI models" could be split into tokens like "Open", "AI", "develops", "advanced", "AI", "models."
+
+Once text is turned into tokens, AI models can start spotting patterns. By adding parameters to the model, data scientists set up weights and biases to help the model understand the context better. Parameters are the bits that the model learns from the data during training. They allow the model to generalize from specific examples to a broader understanding.
+
+There's a direct link between the model algorithm, the number of parameters, and the data type on how many tokens a particular compute setup can handle. More complex models with more parameters can process tokens more effectively but need more computational power.
+
+Understanding how tokens, models, and compute power work together is critical to optimizing AI systems and getting the best performance for different tasks.
 ## Day 4 of #100DaysOfAI: Considerations for Selecting a Model
 https://x.com/CTOAdvisor/status/1803852178370760712
 

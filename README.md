@@ -73,3 +73,35 @@ Focusing on Customization
 Over the next few days, we'll explore practical strategies for customizing models to your needs. This includes fine-tuning models, regardless of size, to ensure they generate accurate and reliable outputs. By tailoring the model to your knowledge base, you can effectively address the hallucination challenge without relying solely on model size.
 
 In summary, while larger models have clear advantages, practical application and efficient customization are crucial to managing hallucination in any AI model. Stay tuned as we begin to get hands-on keyboard in a few days.
+
+## Day 5 of #100DaysOfAI: Data Collection & Cleaning 
+
+https://x.com/CTOAdvisor/status/1804213950881431574
+
+Data is the foundation of any AI project, and its quality directly impacts the accuracy and reliability of your models. Here are some essential considerations for effective data collection and cleaning:
+
+1. Sourcing High-Quality Data:
+- Collect data from reliable and diverse sources to ensure a comprehensive dataset.
+- Validate the authenticity and relevance of the data to your specific use case.
+
+2. Handling Missing Values:
+- Identify and manage missing values through imputation or by removing incomplete entries.
+- Ensure that the method chosen aligns with your business requirements to maintain data integrity.
+
+3. Removing Duplicates:
+- Detect and remove duplicate entries to avoid skewing your results and insights.
+- This step is crucial for maintaining the accuracy of your models and improving data reliability.
+
+4. Normalizing Data:
+- Standardize data formats and scales for consistency across your dataset.
+- Normalization supports smoother integration with your AI models and business systems.
+
+5. Detecting and Managing Outliers:
+- Identify outliers that may introduce bias into your model.
+- Properly managing outliers can reveal critical insights and enhance model performance.
+
+6. Data Transformation:
+-Convert data into suitable formats for your AI models.
+- Ensure these transformations align with your business processes for better decision-making.
+
+Investing time in thorough data collection and cleaning processes will pay off in the long run. Clean data leads to more accurate models and reliable insights, ultimately driving the success of your AI projects. Stay tuned for more insights tomorrow!

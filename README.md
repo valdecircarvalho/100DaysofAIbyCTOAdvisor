@@ -105,3 +105,69 @@ Data is the foundation of any AI project, and its quality directly impacts the a
 - Ensure these transformations align with your business processes for better decision-making.
 
 Investing time in thorough data collection and cleaning processes will pay off in the long run. Clean data leads to more accurate models and reliable insights, ultimately driving the success of your AI projects. Stay tuned for more insights tomorrow!
+
+## Day 6 of #100DaysOfAI: Feature Engineering 
+
+https://x.com/CTOAdvisor/status/1804651213692227626
+
+Following up on yesterday’s discussion on data preparation, today we delve into feature engineering—transforming prepared data into actionable business intelligence. By creating meaningful features and optimizing existing ones, you can significantly enhance the performance of your AI models. Here are some essential considerations for effective feature engineering in an enterprise context:
+
+1. Creating New Features:
+- Derived Features: Use existing data to create new features. For instance, calculate "customer tenure" by subtracting the signup date from the current date.
+- Domain Knowledge: Leverage your industry knowledge to create features that capture essential aspects of your business. For example, features like "average purchase value" or "purchase frequency" should be created in retail.
+
+2. Transforming Existpracticaling Features:
+- Scaling: Normalize numerical features to ensure consistent data ranges, making it easier for models to process and interpret.
+- Encoding Categorical Variables: Convert categorical data into a numerical format using techniques such as one-hot encoding or label encoding to make it usable for machine learning algorithms.
+
+3. Handling Missing Values:
+- Imputation Techniques: Building on our data preparation techniques, fill in missing data with statistical methods like mean, median, or mode, or use more advanced techniques like predictive imputation to maintain data integrity.
+
+4. Managing Outliers:
+- Outlier Detection: Identify outliers that could skew your model's predictions. Use domain knowledge to decide whether to transform, cap, or remove these outliers.
+
+5. Data Transformation:
+- Aggregation: Summarize data at different levels, such as customer or product level, to create summary statistics that capture trends and patterns.
+Binning: Binning converts continuous variables into categorical variables. For example, "age" can be categorized into age groups like 18-25, 26-35, etc.
+
+6. Feature Selection:
+- Removing Redundant Features: Identify and remove features that do not add value to the model, such as those with low variance or high correlation with other features.
+- Statistical Methods: Use techniques like correlation analysis and mutual information to select the most relevant features for your model.
+
+Investing time in thorough feature engineering processes ensures your AI models are built on a solid foundation of high-quality data. This leads to more accurate models and reliable insights, ultimately driving the success of your AI projects in the enterprise. Stay tuned for more insights tomorrow!
+
+## Day 7 of #100DaysOfAI: Model Training 
+
+https://x.com/CTOAdvisor/status/1804998953940717899
+
+Most of us will use a pre-trained model. But today's video shows how badly poor data and testing hygiene results in unexpected inferencing from prompts. That's why it's critical to understand data sources, whether you are training a model or leveraging one from a marketplace. While we haven't touched on RAG yet, it's a consideration as you embed your data into an existing model. 
+
+1. Preparing High-Quality Data:
+- Building on our previous discussions on data preparation and feature engineering, ensure your dataset is clean, well-engineered, and ready for model training.
+
+2. Selecting the Right Algorithms:
+- Algorithm Selection: Choose algorithms that align with your business goals and data characteristics. Options include decision trees, random forests, support vector machines, neural networks, and more.
+- Experimentation: Test multiple algorithms to identify the best-performing model for your specific use case.
+
+3. Training and Validation:
+- Train-Test Split: Divide your dataset into training and test sets to evaluate model performance. A typical split is 80/20 or 70/30.
+- Cross-Validation: Use techniques like k-fold cross-validation to ensure your model generalizes well to new data.
+
+4. Hyperparameter Tuning:
+- Optimization: Adjust the hyperparameters of your chosen algorithms to optimize performance. Techniques include grid search, random search, and Bayesian optimization.
+- Automation: Consider automated machine learning (AutoML) tools to streamline the hyperparameter tuning process.
+
+5. Monitoring and Evaluation:
+- Performance Metrics: Evaluate your model using relevant metrics such as accuracy, precision, recall, F1 score, and ROC-AUC, depending on the problem type (classification, regression, etc.).
+- Continuous Monitoring: Implement continuous monitoring to track model performance over time and detect any degradation.
+
+6. Balancing Computational Resources:
+- Infrastructure: Ensure your infrastructure can handle the computational demands of training large models. This may involve using cloud-based solutions, high-performance computing, or distributed training.
+- Cost Management: Balance computational costs with the potential business impact of the model. Optimize resource usage to achieve cost-effective AI solutions.
+
+7. Aligning with Business Goals:
+- Business Integration: Ensure the model's objectives align with your business goals. Engage stakeholders throughout the training process to validate that the model meets business needs.
+- Iterative Improvement: Use feedback from model deployment and business impact analysis to iteratively improve the model.
+
+Effective model training transforms high-quality data into actionable insights, driving significant value for enterprises. By following these steps, you can ensure your AI models are robust, accurate, and aligned with your business objectives. Stay tuned for more insights tomorrow!
+
